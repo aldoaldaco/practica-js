@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#pather {
+			z-index: 100;
+		}
+		#son {
+			z-index: 50;
+		}
+		.activo {
+			background-color: tomato;
+			color: white;
+		}
+	</style>
+</head>
+<body>	
+	<div id="pather">
+		PADRE
+		<div id="son">HIJO</div>
+	</div>	
+	<script type="text/javascript">
+		(function(){
+			const a  = document;
+			console.log(a);
+		})();
+	</script>
+</body>
+</html>
